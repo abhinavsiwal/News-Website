@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards{
+    width:18rem;
+    height: 30rem;
+    transition: 0.4s;
+}
+.img{
+    height:400px;
+    /* width:300px; */
+}
+.cards:hover{
+    transform: scale(1.1);
+}
